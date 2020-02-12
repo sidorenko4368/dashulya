@@ -37,11 +37,7 @@ public class TitlesPanel extends JPanel implements ActionListener
         if (this.is_done) {
             this.repaint();
         }
-    }    /**
-     * 
-     * @deprecated doDrawing describing variable to draw our object and creates shape
-     * @param g - implements final Graphics from java.awt.Insets
-     */
+    }   
     private void doDrawing(final Graphics g) {
         this.is_done = false;
         (this.g2d = (Graphics2D)g).setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
